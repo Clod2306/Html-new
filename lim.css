@@ -1,0 +1,68 @@
+*{
+   box-sizing:border-box;
+ }
+
+body {
+   background-image: url("background.jpg");
+   background-size: 100%;
+}
+
+main {
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+   margin:auto;
+   padding: 70px;
+   width: 950px;
+}
+
+header, nav{
+  text-align: center;
+}
+
+header {
+  color: lime
+}
+
+nav {
+  background-color: lime;
+  padding: 10px;
+}
+
+#logo img{
+  height: 25%;
+  width: 25%;
+}
+
+div.tipo {
+  display: inline-block;
+  font-size: 20px;
+}
+
+section {
+    color: white;
+    padding-top: 20px;
+}
+
+#gino{
+  background-color: orange;
+  border-radius: 4px;
+  color: orange;
+  width: 250px;
+  height: 25px;
+}
+
+#mike{
+  background-color: lime;
+  border-radius: 4px;
+  color: lime;
+  width: 450px;
+  height: 25px;
+}
+
+#fede{
+  background-color: red;
+  border-radius: 4px;
+  color: red;
+  width: 130px;
+  height: 25px;
+}
